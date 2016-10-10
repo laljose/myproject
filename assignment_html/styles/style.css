@@ -1,0 +1,177 @@
+
+header{
+	position: fixed;
+	-webkit-animation-name: example; 	/* Header styling*/
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    margin: 30px;
+
+}
+
+
+.wrap_div{                    /*wrap is a 960 grid system */
+	margin: auto;	
+}
+
+.wrap_div {
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	padding-bottom: 10px;
+	font-size: 16;
+	background: url(../media/Vilarpac_website_background.jpg);
+
+}
+
+.main_sub_div1{
+	font-family: 'Lobster', cursive;
+	font-size: 16;
+	text-align: center;
+	padding-top: 100px;
+	overflow: hidden;
+}
+.main_sub_div1 h5{
+	padding-top: 20px;
+	position: fixed;
+	color: #a3a375;
+
+	}
+.main_sub_div1 section h2,p{
+	font-size: 16;
+	margin: 40px;
+}
+.main_sub_div2 h2{
+
+	text-align: center;
+}
+.main_sub_div3 h2{
+
+	text-align: center;
+}
+
+nav li {					/* make the navigation links in a single line*/
+	display:inline; 
+}
+
+ul a {	
+
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 18;	
+	text-align:center;
+}	
+
+li a:hover {
+text-decoration:underline;
+color: black;
+}
+
+
+aside{
+	margin-bottom: 50px;
+	text-decoration: none;
+}
+
+aside img{
+	padding-top: 10px;
+	width: 100%;
+	height: 200px;
+
+	
+}
+.main_sub_div2 aside img:hover {
+	width: 300px;
+	height: 300px;
+}
+
+aside h3{
+	text-align: center;
+	
+}
+aside a{
+	text-decoration: none;
+}
+.main_sub_div2 {
+font-family: 'Lobster', cursive;
+margin-top: 30px;
+
+}
+
+.main_sub_div4 {
+font-family: 'Lobster', cursive;
+margin-top: 50px;
+
+}
+.main_sub_div4 aside img:hover {
+	transform:scale(1.3);
+}
+.main_sub_div4 h2{
+	text-align: center;;
+}
+.main_sub_div3 article img{
+
+	width: 960px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.main_sub_div3 a{
+text-decoration: none;
+display: inline;
+font-size: 20;
+font-family: 'PT Sans', sans-serif;
+}
+
+.main_sub_div3 h3{
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+}
+.main_sub_div3 img{
+	padding-top: 10px;
+	width:100%;
+	height: 200px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.main_sub_div3 section video{
+	width: 460px;
+}
+
+.footer_div img{
+	width: 20%;
+	height: 20px;
+	overflow: hidden;
+	padding: 10px 10px;
+
+}
+.footer_div a{
+	text-decoration: none;
+	text-align: center;
+}
+.footer_div{
+padding-top: 20px;
+
+}
+footer h2{
+	padding: 10px 10px;
+}
+.footer_div footer{
+	margin: auto;
+	height: 150px;
+	background-color: #996633;
+	overflow: hidden;
+	 -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {background-color: #3399ff;}
+    to {background-color: #99ccff;}
+
+}
